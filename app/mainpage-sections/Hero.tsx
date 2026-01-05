@@ -6,7 +6,7 @@ export function Hero() {
     return (
         <section id="home" className="relative h-[800px] flex items-center">
             {/* Background Image */}
-            <div className="absolute inset-0 z-0">
+            <div className="absolute w-full h-full z-0">
                 <Image
                     src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&q=80"
                     alt="Luxury Home Exterior"
@@ -48,9 +48,9 @@ export function Hero() {
                     initial={{ opacity: 0, y: 30 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.2 }}
-                    className="bg-white p-8 rounded-2xl shadow-2xl w-full max-w-[420px] relative border-t-4 border-accent"
+                    className="hidden lg:block bg-white p-8 rounded-2xl shadow-2xl w-full max-w-[420px] relative border-t-4 border-accent"
                 >
-                    <div className="absolute -top-12 left-1/2 -translate-x-1/2 bg-accent text-white px-6 py-2 rounded-t-lg font-bold text-sm uppercase tracking-widest shadow-lg whitespace-nowrap">
+                    <div className=" absolute -top-12 left-1/2 -translate-x-1/2 bg-accent text-white px-6 py-2 rounded-t-lg font-bold text-sm uppercase tracking-widest shadow-lg whitespace-nowrap">
                         Get Your Free Estimate
                     </div>
                     <h3 className="text-2xl font-bold text-center mb-2 text-text-dark">Ready to Transform?</h3>

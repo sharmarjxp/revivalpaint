@@ -6,7 +6,7 @@ export function Footer() {
     return (
         <footer className="bg-footer-bg text-gray-400 pt-24 pb-10">
             <div className="container mx-auto px-6 grid grid-cols-1 lg:grid-cols-4  gap-12 mb-20">
-                <div className="lg:col-span-1 bg-white/10 p-6 rounded-lg">
+                <div className="lg:col-span-1  p-6 rounded-lg">
                     <div className="flex items-center gap-2 text-white font-extrabold text-2xl uppercase mb-8">
                         <PaintRollerIcon className="w-8 h-8 text-accent" /> Revival Painting
                     </div>
@@ -36,7 +36,7 @@ export function Footer() {
                     </div>
                 </div>
 
-                <div className="bg-white/10 p-6 rounded-lg">
+                <div className=" p-6 rounded-lg">
                     <h4 className="text-white font-bold text-lg mb-6">Services</h4>
                     <ul className="space-y-3 text-sm">
                         {[
@@ -49,7 +49,7 @@ export function Footer() {
                     </ul>
                 </div>
 
-                <div className="bg-white/10 p-6 rounded-lg">
+                <div className=" p-6 rounded-lg">
                     <h4 className="text-white font-bold text-lg mb-6">Links</h4>
                     <ul className="space-y-3 text-sm">
                         {['Home', 'Services', "About", 'Projects', 'Testimonials', 'Contact'].map(s => (
@@ -58,7 +58,7 @@ export function Footer() {
                     </ul>
                 </div>
 
-                <div className="bg-white/10 p-6 rounded-lg">
+                <div className=" p-6 rounded-lg">
                     <h4 className="text-white font-bold text-lg mb-6">Resources</h4>
                     <ul className="space-y-3 text-sm">
                         {['Painting Tips', 'Color Trends 2026', 'Maintenance Guide', 'FAQ', 'Blog', 'Careers'].map(s => (
