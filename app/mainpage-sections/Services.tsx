@@ -5,21 +5,21 @@ import { fadeInUp, staggerContainer } from './Animations';
 
 export function Services() {
     const services = [
-        { icon: <HomeIcon size={40} />, title: 'Residential Painter', desc: 'Expert interior and exterior house painting for your home.' },
-        { icon: <Briefcase size={40} />, title: 'Commercial Painting', desc: 'Professional contractors for large-scale commercial projects.' },
-        { icon: <Brush size={40} />, title: 'Exterior House Painting', desc: 'Full exterior protection and beautification services.' },
-        { icon: <Hammer size={40} />, title: 'Wood Rot Repair', desc: 'Complete restoration and repair for damaged wood surfaces.' },
-        { icon: <PaintRollerIcon className="w-10 h-10" />, title: 'Deck & Fence Staining', desc: 'Premium staining and waterproofing for outdoor structures.' },
-        { icon: <CheckCircle2 size={40} />, title: 'Staining Contractors', desc: 'Specialized staining for decks, fences, and more.' },
-        { icon: <Brush size={40} />, title: 'Hand Painting', desc: 'Precise, detailed hand-painted finishes for trim and detail.' },
-        { icon: <HomeIcon size={40} />, title: 'Deck Waterproofing', desc: 'Protect your outdoor living spaces from the elements.' },
+        { icon: <HomeIcon size={40} />, title: 'Landscape Maintenance', desc: 'Professional lawn care, trimming, and landscape upkeep for beautiful outdoor spaces.' },
+        { icon: <Hammer size={40} />, title: 'Handyman Services', desc: 'Expert repairs and maintenance for all your residential and commercial needs.' },
+        { icon: <Brush size={40} />, title: 'Exterior House Painting', desc: 'Premium exterior painting services to protect and beautify your property.' },
+        { icon: <PaintRollerIcon className="w-10 h-10" />, title: 'Carpentry', desc: 'Custom carpentry work including decks, fences, and structural repairs.' },
+        { icon: <CheckCircle2 size={40} />, title: 'Drywall Services', desc: 'Professional drywall installation, repair, and finishing.' },
+        { icon: <Briefcase size={40} />, title: 'Patio Installation', desc: 'Beautiful patio designs and construction for your outdoor living space.' },
+        { icon: <Hammer size={40} />, title: 'Commercial Services', desc: 'Comprehensive maintenance solutions for commercial properties.' },
+        { icon: <HomeIcon size={40} />, title: '24/7 Emergency Service', desc: 'Round-the-clock availability for urgent repairs and maintenance needs.' },
     ];
 
     return (
         <section id="services" className="py-24 bg-white text-center">
             <div className="container mx-auto px-6">
                 <motion.div {...fadeInUp} className="mb-16">
-                    <h2 className="text-4xl lg:text-5xl font-extrabold mb-4 text-text-dark">Our Painting Services</h2>
+                    <h2 className="text-4xl lg:text-5xl font-extrabold mb-4 text-text-dark">Our Home Services</h2>
                     <div className="w-24 h-1 bg-accent mx-auto rounded-full mb-4"></div>
                     <p className="text-gray-500 font-medium uppercase text-sm tracking-widest">Comprehensive solutions for every need</p>
                 </motion.div>

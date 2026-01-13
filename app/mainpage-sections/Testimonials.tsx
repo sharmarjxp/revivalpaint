@@ -4,9 +4,9 @@ import { fadeInUp } from './Animations';
 
 export function Testimonials() {
     const reviews = [
-        { text: "The team was fantastic. They arrived on time, worked hard, and the house looks brand new. I couldn't be happier.", name: "James Anderson", role: "Homeowner" },
-        { text: "We hired specialized painters for our commercial building, and the difference is night and day. Professional from start to finish.", name: "Sarah Jenkins", role: "Business Owner" },
-        { text: "Incredible attention to detail on our deck staining. Visual appeal extended our outdoor living season significantly.", name: "Mike & Lisa T.", role: "Happy Clients" }
+        { text: "The landscape maintenance team transformed my backyard. They are reliable, efficient, and very professional. Highly recommend!", name: "James Anderson", role: "Residential Client" },
+        { text: "Fastest response from a handyman I've ever had. They fixed our drywall and some electrical issues in one visit. 5 stars!", name: "Sarah Jenkins", role: "Business Owner" },
+        { text: "Incredible craftsmanship on our new custom patio. It's now our favorite part of the house. Thank you ALL AROUND SERVICE!", name: "Mike & Lisa T.", role: "Happy Homeowners" }
     ];
 
     return (

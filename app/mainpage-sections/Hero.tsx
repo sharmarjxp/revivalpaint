@@ -8,8 +8,8 @@ export function Hero() {
             {/* Background Image */}
             <div className="absolute w-full h-full z-0">
                 <Image
-                    src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&q=80"
-                    alt="Luxury Home Exterior"
+                    src="/images/hero.png"
+                    alt="Professional Home Services"
                     fill
                     className="object-cover"
                     priority
@@ -25,16 +25,16 @@ export function Hero() {
                     className="text-white max-w-2xl text-center lg:text-left pt-20 lg:pt-0"
                 >
                     <div className="inline-block bg-accent/20 border border-accent/50 text-accent font-bold px-4 py-1 rounded-full mb-6 text-sm uppercase tracking-wider backdrop-blur-sm">
-                        Licensed & Insured Painting
+                        Licensed, Insured & Bonded
                     </div>
                     <h1 className="text-5xl md:text-7xl font-extrabold leading-tight mb-6 drop-shadow-lg text-[#f5f5f5]">
-                        Kansas City's Premier<br />Painting Experts
+                        Millcreek's Premier<br />Home Services
                     </h1>
                     <p className="text-xl opacity-95 mb-10 leading-relaxed font-light max-w-lg mx-auto lg:mx-0">
-                        Reviving homes and restoring beauty with premium residential and commercial painting services across the metro.
+                        Your trusted partner for landscape maintenance, handyman services, painting, carpentry, and more. Serving residential and commercial clients 24/7, 365 days a year.
                     </p>
                     <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
-                        {['Licensed', 'Bonded', 'Insured', '5-Star Rated'].map((badge) => (
+                        {['Licensed', 'Bonded', 'Insured', '24/7 Service', '20 Years Experience'].map((badge) => (
                             <div key={badge} className="flex items-center gap-2 bg-white/10 backdrop-blur-md px-4 py-2 rounded-lg border border-white/20">
                                 <CheckCircle2 className="text-accent w-5 h-5" />
                                 <span className="font-semibold text-sm uppercase tracking-wide">{badge}</span>
@@ -68,15 +68,14 @@ export function Hero() {
                         <div>
                             <select className="w-full p-4 border border-gray-200 rounded-lg bg-gray-50 focus:outline-none focus:ring-2 focus:ring-accent/50 focus:border-accent transition-all text-gray-600 cursor-pointer">
                                 <option>Service Needed...</option>
+                                <option>Landscape Maintenance</option>
+                                <option>Handyman Services</option>
                                 <option>Exterior House Painting</option>
-                                <option>Residential Painting</option>
-                                <option>Commercial Painting</option>
-                                <option>Deck Cleaning & Staining</option>
-                                <option>Deck Waterproofing</option>
-                                <option>Wood Rot Repair</option>
-                                <option>Fence Staining</option>
-                                <option>Hand Painting</option>
-                                <option>Staining Contractors</option>
+                                <option>Carpentry</option>
+                                <option>Drywall Repair</option>
+                                <option>Patio Installation</option>
+                                <option>Deck Repair & Staining</option>
+                                <option>Other Services</option>
                             </select>
                         </div>
                         <button type="submit" className="bg-accent text-white font-extrabold py-4 rounded-lg hover:bg-accent-hover transition-all uppercase tracking-wide shadow-lg hover:shadow-xl hover:-translate-y-1 mt-2">

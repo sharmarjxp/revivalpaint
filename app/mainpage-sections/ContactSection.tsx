@@ -17,15 +17,15 @@ export function ContactSection() {
                             <div className="space-y-6">
                                 <div className="flex items-center gap-4">
                                     <Phone className="text-accent" size={20} />
-                                    <span>(816) 419-7453</span>
+                                    <span>(385) 484-3525</span>
                                 </div>
                                 <div className="flex items-center  gap-4">
-                                    <Mail className="text-accent flex-shrink-0"  size={20} />
-                                    <span>revivalpaintingkansascity@gmail.com</span>
+                                    <Mail className="text-accent flex-shrink-0" size={20} />
+                                    <span>info@allaroundservice.com</span>
                                 </div>
                                 <div className="flex items-center gap-4">
                                     <MapPin className="text-accent" size={20} />
-                                    <span>Kansas City, MO 64116-3231</span>
+                                    <span>Millcreek, UT 84106-2936</span>
                                 </div>
                             </div>
                         </div>

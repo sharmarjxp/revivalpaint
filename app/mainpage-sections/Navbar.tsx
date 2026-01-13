@@ -7,7 +7,7 @@ export function Navbar() {
             <div className="container mx-auto px-6 flex justify-between items-center w-full">
                 <div className="flex items-center gap-2 font-extrabold text-2xl uppercase text-text-dark tracking-tight">
                     <PaintRollerIcon className="text-accent w-7 h-7" />
-                    Revival Painting
+                    ALL AROUND SERVICE
                 </div>
                 <div className="hidden md:flex items-center gap-8 font-semibold text-gray-700">
                     {['Home', 'Services', 'About', 'Projects', 'Testimonials'].map((item) => (

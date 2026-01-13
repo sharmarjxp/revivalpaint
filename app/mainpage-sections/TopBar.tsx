@@ -7,10 +7,10 @@ export function TopBar() {
             <div className="container mx-auto px-6 flex justify-between items-center">
                 <div className="flex items-center gap-6">
                     <span className="flex items-center gap-2 font-medium">
-                        <Phone size={14} className="text-accent" /> (816) 419-7453
+                        <Phone size={14} className="text-accent" /> (385) 484-3525
                     </span>
                     <span className="flex items-center gap-2 hidden sm:flex font-medium">
-                        <Mail size={14} className="text-accent" /> revivalpaintingkansascity@gmail.com
+                        <Mail size={14} className="text-accent" /> info@allaroundservice.com
                     </span>
                 </div>
                 <div className="flex gap-4">

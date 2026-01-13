@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Revival Painting, LLC | Kansas City",
-  description: "Revival Painting, LLC based in Kansas City. 10 years of experience providing premium residential and commercial painting, exterior house painting, wood rot repair, and deck staining services across the metro.",
+  title: "ALL AROUND SERVICE | Millcreek, UT",
+  description: "ALL AROUND SERVICE based in Millcreek, UT. 20 years of experience providing landscape maintenance, handyman services, exterior house painting, carpentry, drywall, and patio installation. Serving residential and commercial clients 24/7, 365 days a year within 100 miles of Millcreek.",
 };
 
 export default function RootLayout({

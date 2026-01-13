@@ -28,8 +28,8 @@ export function Stats() {
     const stats = [
         { icon: <HomeIcon size={32} />, val: 6000, suffix: '+', label: 'Jobs Completed' },
         { icon: <Users size={32} />, val: 764, suffix: '+', label: 'Happy Customers' },
-        { icon: <Brush size={32} />, val: 186, suffix: 'k', label: 'Sq. Feet Painted' },
-        { icon: <Briefcase size={32} />, val: 10, suffix: '', label: 'Years in Service' },
+        { icon: <Brush size={32} />, val: 8, suffix: '', label: 'Services Offered' },
+        { icon: <Briefcase size={32} />, val: 20, suffix: '', label: 'Years Experience' },
     ];
 
     return (

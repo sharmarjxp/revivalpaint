@@ -2,7 +2,7 @@ export function FAQ() {
     const faqs = [
         { q: "Do you provide free estimates?", a: "Yes, we provide completely free, no-obligation estimates for all residential and commercial projects. Just contact us to schedule." },
         { q: "Are you licensed and insured?", a: "Absolutely. We are fully licensed, bonded, and insured for your peace of mind and protection." },
-        { q: "What brand of paint do you use?", a: "We primarily recommend Sherwin-Williams and Benjamin Moore for their superior durability and finish, but we can use any brand you prefer." },
+        { q: "What areas do you serve?", a: "We provide our full range of home maintenance and landscape services within a 100-mile radius of Millcreek, UT." },
     ];
 
     return (

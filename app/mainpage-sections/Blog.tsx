@@ -3,9 +3,9 @@ import Image from 'next/image';
 
 export function Blog() {
     const posts = [
-        { title: "2026 Color Trends", date: "Jan 12, 2026", img: "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&q=80" },
-        { title: "Exterior Maintenance Tips", date: "Dec 05, 2025", img: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80" },
-        { title: "Choosing the Right Satin", date: "Nov 20, 2025", img: "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&q=80" }
+        { title: "Essential Landscape Maintenance", date: "Jan 12, 2026", img: "/images/hero.png", desc: "Keep your lawn and garden thriving all year round with our professional seasonal tips." },
+        { title: "Top Handyman Hacks for 2026", date: "Dec 05, 2025", img: "/images/handyman.png", desc: "Expert advice on preventive home maintenance to save you time and money." },
+        { title: "Carpentry & Custom Decks", date: "Nov 20, 2025", img: "/images/carpentry.png", desc: "Explore the latest trends in outdoor living spaces and custom patio designs." }
     ];
 
     return (
@@ -27,7 +27,7 @@ export function Blog() {
                                 </div>
                             </div>
                             <h4 className="font-bold text-xl mb-3 group-hover:text-accent transition-colors">{p.title}</h4>
-                            <p className="text-gray-500 mb-4 line-clamp-2">Learn the secrets to keeping your home paint looking fresh for years to come with our expert advice.</p>
+                            <p className="text-gray-500 mb-4 line-clamp-2">{p.desc}</p>
                             <Link href="#" className="text-accent font-bold uppercase text-sm tracking-wider group-hover:underline">Read Article</Link>
                         </div>
                     ))}

@@ -3,10 +3,10 @@ import { Briefcase, Brush, CheckCircle2 } from 'lucide-react';
 
 export function WhyUs() {
     const benefits = [
-        { title: "Experience", desc: "10 years of delivering quality.", icon: <Briefcase size={32} /> },
-        { title: "Quality", desc: "Premium paints and materials used.", icon: <Brush size={32} /> },
-        { title: "Reliability", desc: "We show up on time, every time.", icon: <CheckCircle2 size={32} /> },
-        { title: "Warranty", desc: "Satisfaction guaranteed on all jobs.", icon: <CheckCircle2 size={32} /> },
+        { title: "Experience", desc: "20 years of delivering quality services.", icon: <Briefcase size={32} /> },
+        { title: "24/7 Availability", desc: "Round-the-clock service, 365 days a year.", icon: <CheckCircle2 size={32} /> },
+        { title: "Licensed & Insured", desc: "Fully bonded for your peace of mind.", icon: <CheckCircle2 size={32} /> },
+        { title: "Free Estimates", desc: "No obligation quotes on all services.", icon: <Brush size={32} /> },
     ];
 
     return (
@@ -14,7 +14,7 @@ export function WhyUs() {
             <div className="container mx-auto px-6">
                 <div className="text-center mb-12">
                     <h2 className="text-4xl font-extrabold mb-4 text-text-dark">Why Choose Us?</h2>
-                    <p className="text-gray-600">We set the standard for painting services in Kansas City.</p>
+                    <p className="text-gray-600">Setting the standard for home services in Millcreek and surrounding areas.</p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                     {benefits.map((b, i) => (

@@ -5,12 +5,12 @@ import { fadeInUp } from './Animations';
 
 export function RecentWork() {
     const projects = [
-        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80",
-        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80",
-        "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&q=80",
-        "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&q=80",
-        "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&q=80",
-        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80",
+        "/images/hero.png",
+        "/images/handyman.png",
+        "/images/painting.png",
+        "/images/carpentry.png",
+        "/images/drywall.png",
+        "/images/patio.png",
     ];
 
     return (
@@ -18,7 +18,7 @@ export function RecentWork() {
             <div className="container mx-auto px-6">
                 <motion.div {...fadeInUp} className="text-center mb-16">
                     <h2 className="text-4xl lg:text-5xl font-extrabold mb-4 text-text-dark">Our Recent Work</h2>
-                    <p className="text-gray-500 max-w-2xl mx-auto">See how we've transformed homes across Kansas City.</p>
+                    <p className="text-gray-500 max-w-2xl mx-auto">See how we've transformed homes and commercial properties across Millcreek.</p>
                 </motion.div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
                     {projects.map((src, i) => (
